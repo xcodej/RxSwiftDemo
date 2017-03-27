@@ -2,10 +2,10 @@
 # platform :ios, '9.0'
 
 target 'RxSwiftDemo' do
-  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
 
   # Pods for RxSwiftDemo
- pod 'RxSwift',    '~> 3.0'
+  pod 'RxSwift',    '~> 3.0'
     pod 'RxCocoa',    '~> 3.0'
 end
